@@ -12,4 +12,4 @@ docker:
     FROM registry:2.7
 
     COPY +build/registry /bin/registry
-    SAVE IMAGE --push dchw/registry:$TARGET_SHA
+    SAVE IMAGE --push dchw/registry:$TARGET_SHA # Temporary until I can get an earthly repo created.
